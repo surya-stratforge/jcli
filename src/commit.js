@@ -21,17 +21,7 @@ export async function cmdCommit(options) {
       // Open editor for multi-line commit message
       console.log(chalk.gray("  Opening editor for commit message…\n"));
 
-      const hint = [
-        "# Enter your commit message above.",
-        "# Lines starting with # are ignored.",
-        "#",
-        "# Format: type(scope): subject",
-        "#   e.g.  fix(auth): handle null token on refresh",
-        "#         feat(dashboard): add weekly summary chart",
-        "#",
-        "# Leave empty to abort.",
-      ].join("\n");
-
+      const hint = "";
       const raw = openEditor(`\n\n${hint}`, ".txt");
 
       if (!raw) {

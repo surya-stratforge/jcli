@@ -15,22 +15,20 @@ export const TEMPLATES = {
 ---
 
 ## 🧪 How Has This Been Tested?
-- [ ] Manually tested in browser
-- [ ] Unit tests added / updated
-- [ ] Edge cases considered
+- [x] Manually tested in browser
 
 ---
 
 ## 🧾 Checklist
-- [ ] 🔄 I've pulled the latest code from the base branch
-- [ ] ✅ My code follows the project's style guidelines
-- [ ] 🧠 I've self-reviewed my code and cleaned up debug logs
-- [ ] 📝 Comments added for complex/critical logic
-- [ ] 🚫 No new ESLint/console warnings
-- [ ] 🔐 Proper access control/permission handling
-- [ ] 📦 All dependent changes are merged or published
-- [ ] 🛂 Input validation added where needed
-- [ ] 📈 Logging and error handling reviewed
+- [x] 🔄 I've pulled the latest code from the base branch
+- [x] ✅ My code follows the project's style guidelines
+- [x] 🧠 I've self-reviewed my code and cleaned up debug logs
+- [x] 📝 Comments added for complex/critical logic
+- [x] 🚫 No new ESLint/console warnings
+- [x] 🔐 Proper access control/permission handling
+- [x] 📦 All dependent changes are merged or published
+- [x] 🛂 Input validation added where needed
+- [x] 📈 Logging and error handling reviewed
 
 ---
 
@@ -53,22 +51,21 @@ export const TEMPLATES = {
 ---
 
 ## 🧪 How Has This Been Tested?
-- [ ] Manually tested in browser
-- [ ] Unit tests added / updated
-- [ ] Edge cases considered
+- [x] Manually tested in browser
+
 
 ---
 
 ## 🧾 Checklist
-- [ ] 🔄 I've pulled the latest code from the base branch
-- [ ] ✅ My code follows the project's style guidelines
-- [ ] 🧠 I've self-reviewed my code and cleaned up debug logs
-- [ ] 📝 Comments added for complex/critical logic
-- [ ] 🚫 No new ESLint/console warnings
-- [ ] 🔐 Proper access control/permission handling
-- [ ] 📦 All dependent changes are merged or published
-- [ ] 🛂 Input validation added where needed
-- [ ] 📈 Logging and error handling reviewed
+- [x] 🔄 I've pulled the latest code from the base branch
+- [x] ✅ My code follows the project's style guidelines
+- [x] 🧠 I've self-reviewed my code and cleaned up debug logs
+- [x] 📝 Comments added for complex/critical logic
+- [x] 🚫 No new ESLint/console warnings
+- [x] 🔐 Proper access control/permission handling
+- [x] 📦 All dependent changes are merged or published
+- [x] 🛂 Input validation added where needed
+- [x] 📈 Logging and error handling reviewed
 
 ---
 
@@ -91,22 +88,20 @@ export const TEMPLATES = {
 ---
 
 ## 🧪 How Has This Been Tested?
-- [ ] Manually tested in browser
-- [ ] Existing tests still pass
-- [ ] No unintended side-effects verified
+- [x] Manually tested in browser
 
 ---
 
 ## 🧾 Checklist
-- [ ] 🔄 I've pulled the latest code from the base branch
-- [ ] ✅ My code follows the project's style guidelines
-- [ ] 🧠 I've self-reviewed my code and cleaned up debug logs
-- [ ] 📝 Comments added for complex/critical logic
-- [ ] 🚫 No new ESLint/console warnings
-- [ ] 🔐 Proper access control/permission handling
-- [ ] 📦 All dependent changes are merged or published
-- [ ] 🛂 Input validation added where needed
-- [ ] 📈 Logging and error handling reviewed
+- [x] 🔄 I've pulled the latest code from the base branch
+- [x] ✅ My code follows the project's style guidelines
+- [x] 🧠 I've self-reviewed my code and cleaned up debug logs
+- [x] 📝 Comments added for complex/critical logic
+- [x] 🚫 No new ESLint/console warnings
+- [x] 🔐 Proper access control/permission handling
+- [x] 📦 All dependent changes are merged or published
+- [x] 🛂 Input validation added where needed
+- [x] 📈 Logging and error handling reviewed
 
 ---
 
@@ -129,22 +124,20 @@ export const TEMPLATES = {
 ---
 
 ## 🧪 How Has This Been Tested?
-- [ ] Manually tested in browser
-- [ ] All existing tests pass
-- [ ] Behaviour confirmed unchanged
+- [x] Manually tested in browser
 
 ---
 
 ## 🧾 Checklist
-- [ ] 🔄 I've pulled the latest code from the base branch
-- [ ] ✅ My code follows the project's style guidelines
-- [ ] 🧠 I've self-reviewed my code and cleaned up debug logs
-- [ ] 📝 Comments added for complex/critical logic
-- [ ] 🚫 No new ESLint/console warnings
-- [ ] 🔐 Proper access control/permission handling
-- [ ] 📦 All dependent changes are merged or published
-- [ ] 🛂 Input validation added where needed
-- [ ] 📈 Logging and error handling reviewed
+- [x] 🔄 I've pulled the latest code from the base branch
+- [x] ✅ My code follows the project's style guidelines
+- [x] 🧠 I've self-reviewed my code and cleaned up debug logs
+- [x] 📝 Comments added for complex/critical logic
+- [x] 🚫 No new ESLint/console warnings
+- [x] 🔐 Proper access control/permission handling
+- [x] 📦 All dependent changes are merged or published
+- [x] 🛂 Input validation added where needed
+- [x] 📈 Logging and error handling reviewed
 
 ---
 
@@ -167,22 +160,20 @@ export const TEMPLATES = {
 ---
 
 ## 🧪 How Has This Been Tested?
-- [ ] Manually tested in browser
-- [ ] Tested in staging / production-like environment
-- [ ] Monitoring / alerts checked after deploy
+- [x] Manually tested in browser
 
 ---
 
 ## 🧾 Checklist
-- [ ] 🔄 I've pulled the latest code from the base branch
-- [ ] ✅ My code follows the project's style guidelines
-- [ ] 🧠 I've self-reviewed my code and cleaned up debug logs
-- [ ] 📝 Comments added for complex/critical logic
-- [ ] 🚫 No new ESLint/console warnings
-- [ ] 🔐 Proper access control/permission handling
-- [ ] 📦 All dependent changes are merged or published
-- [ ] 🛂 Input validation added where needed
-- [ ] 📈 Logging and error handling reviewed
+- [x] 🔄 I've pulled the latest code from the base branch
+- [x] ✅ My code follows the project's style guidelines
+- [x] 🧠 I've self-reviewed my code and cleaned up debug logs
+- [x] 📝 Comments added for complex/critical logic
+- [x] 🚫 No new ESLint/console warnings
+- [x] 🔐 Proper access control/permission handling
+- [x] 📦 All dependent changes are merged or published
+- [x] 🛂 Input validation added where needed
+- [x] 📈 Logging and error handling reviewed
 
 ---
 

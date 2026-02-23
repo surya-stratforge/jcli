@@ -13,6 +13,14 @@ import { loadProjectConfig, getBranchMeta } from "./config.js";
 import { getTemplate, TICKET_TYPES } from "./templates.js";
 import { openEditor } from "./editor.js";
 
+const TYPE_LABELS = {
+  bug: "bug",
+  feature: "enhancement",
+  chore: "chore",
+  refactor: "refactor",
+  hotfix: "hotfix",
+};
+
 export async function cmdPr() {
   try {
     await assertGitRepo();
@@ -84,7 +92,7 @@ export async function cmdPr() {
     }
 
     // ── Build PR title ──────────────────────────────────────────────────────
-    const defaultTitle = `${jiraKey} `;
+    const defaultTitle = `${type.toUpperCase()}: ${jiraKey} `;
     const prTitle = defaultTitle; // user will refine in editor if desired
 
     // ── Resolve reviewers from config ───────────────────────────────────────
@@ -142,7 +150,14 @@ export async function cmdPr() {
     }
 
     if (reviewers.length > 0) {
-      args.push("--reviewer", reviewers.join(","));
+      for (const reviewer of reviewers) {
+        args.push("--reviewer", reviewer);
+      }
+    }
+
+    const label = TYPE_LABELS[type];
+    if (label) {
+      args.push("--label", label);
     }
 
     const { stdout } = await execa("gh", args, { stdio: "pipe" });
