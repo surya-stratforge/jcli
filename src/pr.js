@@ -8,10 +8,10 @@ import {
   getCurrentBranch,
   pushBranch,
   getGhUsername,
-} from "../utils/git.js";
-import { loadProjectConfig, getBranchMeta } from "../utils/config.js";
-import { getTemplate, TICKET_TYPES } from "../templates/index.js";
-import { openEditor } from "../utils/editor.js";
+} from "./git.js";
+import { loadProjectConfig, getBranchMeta } from "./config.js";
+import { getTemplate, TICKET_TYPES } from "./templates.js";
+import { openEditor } from "./editor.js";
 
 export async function cmdPr() {
   try {
